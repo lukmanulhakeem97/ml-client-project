@@ -11,8 +11,14 @@ In first approach, dataset consists of top seven classes were used. Tried with d
 
 Since first approach is bad, tried to do second approach. Here we use time-series dataset of top three classes where variables are date and counts (or quantity). For each dataset, tried with AR, ARIMA, SARIMA and FB-Prophet. All models are not good enough as the dataset doesn’t have any significant correlation coefficient at the lower lags. But AR model with higher order that have lower AIC and BIC measures able to generate new output (counts of spare-part) with given dates. So we choose Auto Regressive time-series model for the three classes. 
 
-
-## Required Development Tools & Setup
+# Required Development Tools & Setup
+Inorder to deploy trained model using Flask framework:
+1. Clone this repo
+   <pre>
+  ```bash
+  ! git clone [https://github.com/yourrepository.git](https://github.com/lukmanulhakeem97/ml-client-project.git)
+  ```
+  </pre> 
 
 ## Step-by-step launch instructions
 
