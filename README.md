@@ -1,4 +1,4 @@
-# Project Overview
+## Project Overview
 ### Stock Inventory Forecast
 This is an ML timeseries forecasting project. This repo contain only model deployement part of the trained model using flask. Detailed files and docs of Machine Learning part can be found on my [drive](https://drive.google.com/drive/folders/1Th8lBTQDZkOp5kBOW-t5eRuaQXHbwAcu?usp=share_link)
 
@@ -11,7 +11,11 @@ In first approach, dataset consists of top seven classes were used. Tried with d
 
 Since first approach is bad, tried to do second approach. Here we use time-series dataset of top three classes where variables are date and counts (or quantity). For each dataset, tried with AR, ARIMA, SARIMA and FB-Prophet. All models are not good enough as the dataset doesn’t have any significant correlation coefficient at the lower lags. But AR model with higher order that have lower AIC and BIC measures able to generate new output (counts of spare-part) with given dates. So we choose Auto Regressive time-series model for the three classes. 
 
-# Required Development Tools & Setup
+## Required Development Tools & Setup
+- Python 3
+- 
+
+## Step-by-step launch instructions
 Inorder to deploy trained model using Flask framework:
 1. Clone this repo
    <pre>
@@ -37,6 +41,9 @@ Inorder to deploy trained model using Flask framework:
    This will run flaskapp.py and launch webpage 
    
 
-## Step-by-step launch instructions
+
 
 ## Workflow of the application
+1. Webpage ask Date as input data till which forecast need to be done.
+2. Input values from html request form will feed as input to the model for making prediction.
+3. Prediction will be push into webpage as output.
