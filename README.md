@@ -29,7 +29,9 @@ Inorder to deploy trained model using Flask framework:
    <pre>
       ! conda activate myenv
    </pre>
-4.  
+4. Go to directory where repo installed.
+5. In terminal, enter
+   
 
 ## Step-by-step launch instructions
 
