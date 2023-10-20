@@ -15,9 +15,7 @@ Since first approach is bad, tried to do second approach. Here we use time-serie
 Inorder to deploy trained model using Flask framework:
 1. Clone this repo
    <pre>
-   ```bash
-   $ git clone (https://github.com/lukmanulhakeem97/ml-client-project.git)
-   ```
+   ! git clone https://github.com/lukmanulhakeem97/ml-client-project.git
    </pre>
 
 ## Step-by-step launch instructions
