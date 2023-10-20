@@ -14,12 +14,11 @@ In first approach, dataset consists of top seven classes were used. Tried with d
 Since first approach is bad, tried to do second approach. Here we use time-series dataset of top three classes where variables are date and counts (or quantity). For each dataset, tried with AR, ARIMA, SARIMA and FB-Prophet. All models are not good enough as the dataset doesn’t have any significant correlation coefficient at the lower lags. But AR model with higher order that have lower AIC and BIC measures able to generate new output (counts of spare-part) with given dates. So we choose Auto Regressive time-series model for the three classes. 
 
 ## Required Development Tools & Setup
-Python 3
+- Python 3
 - Environment and Editor: Anaconda, Juputer Notebook, PyCharm.
 - Data loading and preprocessing: Nnumpy, Pandas, Scipy 
 - Analysis and Visualiztion: Matplotlib, Seaborn and Sweetviz
-- Data augumentation/generartion: Imblearn
-- Model training, hyperparameter tuning and evaluation: Sklearn, Tensorflow, Statsmodel, fbprophet, LSTM.
+- Model training and evaluation: Sklearn, Tensorflow, Statsmodel, fbprophet, LSTM.
 - Model serialization: Pickle, Tensorflow
 
 ## Step-by-step launch instructions
