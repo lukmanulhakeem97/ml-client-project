@@ -17,6 +17,15 @@ Inorder to deploy trained model using Flask framework:
    <pre>
    ! git clone https://github.com/lukmanulhakeem97/ml-client-project.git
    </pre>
+2. Install recessary packages given in [requirements.txt](requirements.txt):
+   <pre>
+   ! pip install -r requirements.txt
+   </pre>
+   for conda, use new or existing environment. Then install packages:
+   <pre>
+   ! conda create --name myenv --file requirements.txt
+   </pre>
+4.  
 
 ## Step-by-step launch instructions
 
