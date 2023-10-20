@@ -16,7 +16,7 @@ Inorder to deploy trained model using Flask framework:
 1. Clone this repo
    <pre>
   ```bash
-  ! git clone [https://github.com/yourrepository.git](https://github.com/lukmanulhakeem97/ml-client-project.git)
+  ! git clone [[https://github.com/yourrepository.git]
   ```
   </pre> 
 
