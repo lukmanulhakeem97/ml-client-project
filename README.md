@@ -25,6 +25,10 @@ Inorder to deploy trained model using Flask framework:
    <pre>
    ! conda create --name myenv --file requirements.txt
    </pre>
+   Avtivate conda environment:
+   <pre>
+      ! conda activate myenv
+   </pre>
 4.  
 
 ## Step-by-step launch instructions
