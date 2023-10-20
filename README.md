@@ -1,6 +1,7 @@
 ## Project Overview
-### Stock Inventory Forecast
+### Engine Oil Stock Inventory Forecast
 This is an ML timeseries forecasting project. This repo contain only model deployement part of the trained model using flask. Detailed files and docs of Machine Learning part can be found on my [drive](https://drive.google.com/drive/folders/1Th8lBTQDZkOp5kBOW-t5eRuaQXHbwAcu?usp=share_link)
+Note: procfile This project is deployed on Heroku
 
 ### Project Analysis:
 The project goal of this work is to build a predictive model for spare-parts inventory forecast. As dataset is has many output class names of spare-parts, it seems to be complicated to build model including all spare-parts categories. Therefore we had build individual forecasting models only for top 3 spare-parts category using Auto Regressive (AR) statistical estimator. These models will forecast spare-part count or quantity required for a given day. Engine oil forecasting model have AIC score 1659.68, Chain Lubrication forecasting model have AIC score 1675.19 and General Service forecasting model have AIC score 1466.41.
@@ -49,6 +50,6 @@ Inorder to deploy trained model using Flask framework:
 
 
 ## Workflow of the application
-1. Webpage ask Date as input data till which forecast need to be done.
-2. Input values from html request form will feed as input to the model for making prediction.
+1. Webpage ask Date as input data till which forecast need to be done. Input would either number of days or last Date in Date format.
+2. Input values from html request form will feed as input to the model for making prediction of engine oil quantities.
 3. Prediction will be push into webpage as output.
