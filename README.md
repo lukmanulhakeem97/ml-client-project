@@ -31,6 +31,10 @@ Inorder to deploy trained model using Flask framework:
    </pre>
 4. Go to directory where repo installed.
 5. In terminal, enter
+   <pre>
+      ! python flaskapp.py
+   </pre>
+   This will run flaskapp.py and launch webpage 
    
 
 ## Step-by-step launch instructions
