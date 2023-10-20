@@ -1,6 +1,6 @@
 ## Project Overview
 ### Engine Oil Stock Inventory Forecast
-This is an ML timeseries forecasting project. This repo contain only model deployement part of the trained model using flask. Detailed files and docs of Machine Learning part can be found on my [drive](https://drive.google.com/drive/folders/1Th8lBTQDZkOp5kBOW-t5eRuaQXHbwAcu?usp=share_link)
+This is an ML timeseries forecasting project. This repo contain only model deployement part of the trained model using flask. Detailed files and docs of Machine Learning part can be found on my [drive](https://drive.google.com/drive/folders/1Th8lBTQDZkOp5kBOW-t5eRuaQXHbwAcu?usp=share_link).
 
 Note: Procfile (This project is deployed on Heroku)
 
@@ -19,7 +19,7 @@ Python 3
 - Data loading and preprocessing: Nnumpy, Pandas, Scipy 
 - Analysis and Visualiztion: Matplotlib, Seaborn and Sweetviz
 - Data augumentation/generartion: Imblearn
-- Model training, hyperparameter tuning and evaluation: Sklearn, Tensorflow, KerasTuner, Statsmodel, FBprophet.
+- Model training, hyperparameter tuning and evaluation: Sklearn, Tensorflow, Statsmodel, fbprophet, LSTM.
 - Model serialization: Pickle, Tensorflow
 
 ## Step-by-step launch instructions
